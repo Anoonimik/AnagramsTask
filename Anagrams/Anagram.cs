@@ -28,7 +28,7 @@
             }
 
             var pairCount = 0;
-            for (var len = 2; len <= s.Length; len++)
+            for (var len = 1; len <= s.Length; len++)
             {
                 pairCount += CountAnagramPairs(s, len);
             }
